@@ -33,3 +33,5 @@ opusrtp
 !win32/config.h
 
 build
+libs/ogg
+libs/opus
