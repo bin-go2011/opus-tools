@@ -3,11 +3,10 @@ project(OPUS-TOOLS)
 
 add_definitions(-DWIN_UNICODE)
 
-find_package(Ogg CONFIG REQUIRED)
 add_subdirectory(libs)
 
-include_directories(${CMAKE_SOURCE_DIR}/include
-)
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
 if (WIN32)
 include_directories(win32)
 endif()
