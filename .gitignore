@@ -31,3 +31,5 @@ opusrtp
 
 # Always include these!
 !win32/config.h
+
+build
